@@ -15,13 +15,16 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency in the form
 ```xml
 <dependency>
-    <groupId>com.github.allbegray</groupId>
+    <groupId>com.github.danielowenprm</groupId>
     <artifactId>slack-api</artifactId>
-    <version>v1.7.0.RELEASE</version>
+    <version>v1.8.0.RELEASE</version>
 </dependency>
 ```
 
 ## Change Logs
+
+### v1.8.0.RELEASE
+update channels.list api endpoint to conversations.list
 
 ### v1.7.0.RELEASE
 
