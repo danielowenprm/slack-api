@@ -1213,7 +1213,7 @@ public class SlackWebApiClientImpl implements SlackWebApiClient {
 		}
 	}
 
-	protected <T> T readValue(JsonNode node, String findPath, TypeReference<?> typeReference) {
+	protected <T> T readValue(JsonNode node, String findPath, TypeReference<T> typeReference) {
 		try {
 			if (findPath != null) {
 				if (!node.has(findPath)) return null;

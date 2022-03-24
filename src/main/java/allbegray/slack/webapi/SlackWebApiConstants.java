@@ -29,7 +29,7 @@ public interface SlackWebApiConstants {
 	String CHANNELS_JOIN = "channels.join";
 	String CHANNELS_KICK = "channels.kick";
 	String CHANNELS_LEAVE = "channels.leave";
-	String CHANNELS_LIST = "channels.list";
+	String CHANNELS_LIST = "conversations.list";
 	String CHANNELS_MARK = "channels.mark";
 	String CHANNELS_RENAME = "channels.rename";
 	String CHANNELS_SET_PURPOSE = "channels.setPurpose";

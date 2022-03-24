@@ -17,6 +17,7 @@ public class Channel {
 	protected Boolean is_general;
 	protected Boolean is_member;
 	protected List<String> members;
+	protected Integer num_members;
 	protected Topic topic;
 	protected Purpose purpose;
 	protected String last_read;
@@ -98,6 +99,14 @@ public class Channel {
 	public void setMembers(List<String> members) {
 		this.members = members;
 	}
+	
+	public Integer getNum_members() {
+		return num_members;
+	}
+
+	public void setNum_members(Integer num_members) {
+		this.num_members = num_members;
+	}
 
 	public Topic getTopic() {
 		return topic;
@@ -146,7 +155,7 @@ public class Channel {
 	@Override
 	public String toString() {
 		return "Channel [id=" + id + ", name=" + name + ", is_channel=" + is_channel + ", created=" + created + ", creator=" + creator + ", is_archived=" + is_archived + ", is_general=" + is_general
-				+ ", is_member=" + is_member + ", members=" + members + ", topic=" + topic + ", purpose=" + purpose + ", last_read=" + last_read + ", unread_count=" + unread_count
+				+ ", is_member=" + is_member + ", members=" + members + ", num_members=" + num_members + ", topic=" + topic + ", purpose=" + purpose + ", last_read=" + last_read + ", unread_count=" + unread_count
 				+ ", unread_count_display=" + unread_count_display + "]";
 	}
 
