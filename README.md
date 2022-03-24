@@ -1,4 +1,4 @@
-[![Release](https://img.shields.io/github/release/allbegray/slack-api.svg?label=JitPack)](https://jitpack.io/#allbegray/slack-api) 
+[![Release](https://img.shields.io/github/release/danielowenprm/slack-api.svg?label=JitPack)](https://jitpack.io/#danielowenprm/slack-api) 
 
 slack-api
 =============
